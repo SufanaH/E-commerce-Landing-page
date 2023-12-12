@@ -1,5 +1,5 @@
 ## DEMO:
-![Budget App Management Demo](landingPage.png)
+![Landing page Demo](landingPage.png)
 
 # E-commerce Landing Page
 
