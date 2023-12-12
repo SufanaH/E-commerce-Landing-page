@@ -1,5 +1,6 @@
 ## DEMO:
 ![Landing page Demo](landingPage.png)
+[![Watch the Demo]](Landingpage.mov)
 
 # E-commerce Landing Page
 
