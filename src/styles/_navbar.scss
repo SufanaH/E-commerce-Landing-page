@@ -1,0 +1,27 @@
+@import 'variable';
+
+.navbar-roll {
+    height: 5rem;
+    float: right;
+
+    ul {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      li {
+        padding: 0.8rem;
+        border-radius: 0.6rem;
+        transition: all 0.3s ease-in;
+        a {
+          color: #fff;
+        }
+        // list:hover can be written as &:hover here as we are targeting parent element
+        &:hover {
+            background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+        }
+      }
+    }
+  }

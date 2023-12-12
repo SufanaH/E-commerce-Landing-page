@@ -1,0 +1,39 @@
+.button-1 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    border: 0;
+    border-radius: 8px;
+    color:$light;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 1rem;
+    margin: 2rem 0 0 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 0 0 20px #2b0057;
+
+    }
+  }
+
+  .button {
+    background-image: linear-gradient(144deg, $button1, $button2 50%, $button3);
+    border-radius: 8px;
+    border-style: none;
+    color: $light;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 16px;
+    text-align: center;
+    &:hover{
+        box-shadow: 0 0 20px $dark;
+    }
+  }
+  

@@ -1,0 +1,36 @@
+@import 'variable';
+@import 'mixins';
+
+
+.product-section {
+    display: fixed;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 80%;
+    height: 700;
+
+    .product-card{
+        box-sizing: border-box;
+        text-align: center;
+        padding: 1rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        height: 350px;
+        width: 300px;
+        a{
+            position: center;
+        }
+
+        &:hover{
+            box-shadow: 0 0 20px $dark;
+        }
+        &:hover h4{
+            box-shadow: 0 0 20px $dark;
+        }
+    }
+
+    
+  }

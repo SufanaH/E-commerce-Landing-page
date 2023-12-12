@@ -1,0 +1,14 @@
+.txt-anm {
+    animation: anm1 5s linear 50;
+  }
+  @keyframes anm1 {
+    from {
+      color: $animation1;
+    }
+    20% {
+      color: $animation2;
+    }
+    to {
+      color: $animation3;
+    }
+  }
